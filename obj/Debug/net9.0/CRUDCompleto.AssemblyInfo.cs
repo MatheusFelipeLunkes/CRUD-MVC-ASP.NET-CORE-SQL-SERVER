@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDCompleto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f7a6ca972028707aee4dd5db4783dce550341cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70d982e49e80227c24d137a64db6944e09cc01b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDCompleto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDCompleto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

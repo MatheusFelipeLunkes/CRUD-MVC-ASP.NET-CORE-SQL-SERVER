@@ -1,8 +1,14 @@
+using CRUDCompleto.Models.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<Context>(options => options.UseSqlServer
+(builder.Configuration.GetConnectionString("ProductConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

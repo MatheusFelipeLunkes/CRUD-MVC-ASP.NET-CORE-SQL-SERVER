@@ -1,6 +1,7 @@
 using System.Diagnostics;
-using CRUDCompleto.Models;
 using Microsoft.AspNetCore.Mvc;
+using CRUDCompleto.Models;
+
 
 namespace CRUDCompleto.Controllers
 {
